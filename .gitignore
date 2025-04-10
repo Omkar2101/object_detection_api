@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter and logs
+*.ipynb
+*.log
+
+# dotenv
+.env
+*.env
+
+# Output files and temporary folders
+output.jpg
+test_images/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Test cache
+.pytest_cache/
+coverage/
+
+# Docker
+*.tar
+.dockerignore
