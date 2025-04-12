@@ -40,8 +40,8 @@ jobs:
     # Optional: Push the Docker image to GitHub Container Registry
     - name: Tag and push Docker image
       run: |
-        # Tag the image with the GitHub Container Registry path
-        IMAGE_ID=ghcr.io/${{ github.repository }}/object-detection-api
+        # Convert repository name to lowercase for Docker compliance
+        IMAGE_ID=ghcr.io/omkar2101/object-detection-api
         docker tag object-detection-api:latest $IMAGE_ID:latest
         # Push the tagged image to the registry
         docker push $IMAGE_ID:latest
