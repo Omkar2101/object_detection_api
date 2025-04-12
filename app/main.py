@@ -29,7 +29,7 @@ async def detect_objects(file: UploadFile = File(...)):
     # Extract predictions
     predictions = results[0]  # First image's results
     boxes = predictions.boxes.xyxy.cpu().numpy().tolist()  # Bounding boxes
-    scores = predictions.boxes.conf.cpu().numpy().tolist()  # Confidence scores /probality scores
+    scores = predictions.boxes.conf.cpu().numpy().tolist()  # Confidence scores /probality score
     labels = [model.names[int(cls)] for cls in predictions.boxes.cls.cpu().numpy()]  # Class labels
 
     # Draw bounding boxes on the image
