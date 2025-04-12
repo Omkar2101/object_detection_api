@@ -20,7 +20,7 @@ ENV/
 
 # Output files and temporary folders
 output.jpg
-test_images/
+
 
 # OS/system files
 .DS_Store
