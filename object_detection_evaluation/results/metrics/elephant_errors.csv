@@ -1,0 +1,2 @@
+image,ground_truth,prediction,error_type
+data\elephant\negative\0007.jpg,Negative,Positive,False Positive

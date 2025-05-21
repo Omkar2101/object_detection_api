@@ -1,0 +1,6 @@
+class,class_id,true_positives,false_positives,true_negatives,false_negatives,precision,recall,f1_score,accuracy,total_images,positive_examples,negative_examples
+buffalo,0,17,0,20,0,1.0,1.0,1.0,1.0,37,17,20
+elephant,1,20,1,16,0,0.9523809523809523,1.0,0.975609756097561,0.972972972972973,37,20,17
+rhino,2,23,0,17,0,1.0,1.0,1.0,1.0,40,23,17
+zebra,3,18,0,20,0,1.0,1.0,1.0,1.0,38,18,20
+mask,4,23,0,23,0,1.0,1.0,1.0,1.0,46,23,23

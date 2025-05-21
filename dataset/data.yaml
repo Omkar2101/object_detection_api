@@ -1,0 +1,8 @@
+path: ./dataset
+train: images/train
+val: images/val
+
+nc: 5
+names: ['buffalo', 'elephant', 'rhino','zebra','mask'] 
+
+
